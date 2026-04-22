@@ -1,49 +1,30 @@
-# 📄 AAiCON 2023 — 2023년 제2차 실용 인공지능 학술대회 논문 기재
+# AAiCON 2023
 
-![Publication](https://img.shields.io/badge/📄%20Academic%20Publication-AAiCON2023-red)
-![Host](https://img.shields.io/badge/Host-에이아이프렌즈학회%20(AI%20Frenz)-blue)
-![Linked](https://img.shields.io/badge/Linked%20to-🥇%20Genomic%201st%20Place-gold)
-![Role](https://img.shields.io/badge/Role-공동%20저자%20(코드%20논문%20작성%20기여)-green)
+유전체 품종 분류 대회 1위 결과를 바탕으로 작성한 코드 논문과 학회 논문집을 정리한 저장소입니다. 대회 결과를 연구 문서 형태로 다시 정리한 기록입니다.
 
-> **공식 학술대회 논문 기재** — 에이아이프렌즈학회(AI Frenz) 주최 **2023년 제2차 실용 인공지능 학술대회**. [유전체 품종 분류 대회 1위 수상](https://github.com/Minsu5452/Genomic_Data_Breed_Classification) 연계. **공동 저자로 코드 논문 작성**.
+## Snapshot
 
----
+| Item | Detail |
+| --- | --- |
+| Type | Conference record |
+| Event | 2023년 제2차 실용 인공지능 학술대회 |
+| Period | 2023.02.09-2023.02.10 |
+| Role | 공동 저자, 코드 논문 작성 기여 |
+| Linked project | [Genomic_Data_Breed_Classification](https://github.com/Minsu5452/Genomic_Data_Breed_Classification) |
+| Outcome | 학회 논문집 수록 |
 
-## 🎓 Publication
+## What Is Included
 
-- **학술대회**: 2023년 제2차 실용 인공지능 학술대회
-- **주최**: 에이아이프렌즈학회 (AI Frenz)
-- **기간**: 2023.02.09 ~ 2023.02.10
-- **논문 제목**: *SNP 정보를 활용한 유전체 품종 분류 모델링에 대한 연구*
-- **팀명**: 국민대민쑤팀
-- **역할**: **공동 저자** (코드 논문 작성 기여)
+- `AAiCON2023_논문집.pdf`: 학회 공식 논문집
+- `SNP정보를_활용한_유전체_품종_분류_모델링에_대한_연구_국민대민쑤팀_최종본.ipynb`: 제출용 코드 논문 정리본
 
-## 🔍 Overview
+## Research Summary
 
-- **연계 사실**: DACON [유전체 정보 품종 분류 AI 경진대회](https://dacon.io/competitions/official/236035/overview/description) **1위 수상** 후 AI Frenz 학회로부터 코드 논문 작성 안내 수신 → 공식 학술대회 논문으로 등재.
-- **기여**: 본인이 **코드 논문 작성** (발표는 팀원 담당).
+- 문제: SNP 정보를 활용한 가축 품종 다중 분류
+- 방법: CatBoost Encoder, oversampling, voting ensemble
+- 연계 성과: DACON 대회 1위 솔루션을 학회 문서 형태로 확장
 
-## 📁 Contents
+## Related Links
 
-```
-AAiCON2023/
-├── AAiCON2023_논문집.pdf                                         # 학회 공식 논문집
-├── SNP정보를_활용한_유전체_품종_분류_모델링에_대한_연구_국민대민쑤팀_최종본.ipynb
-│                                                                   # 제출 코드 논문
-└── README.md
-```
-
-## 🧠 연구 요약
-
-- **Task**: SNP(단일염기다형성) 유전체 데이터 기반 가축 품종 다중 분류
-- **Method**: CatBoost Encoder + OverSampling + Voting Classifier
-- **Result**: 716팀 중 **1st place**
-
-## 🔗 Related
-
-- 🥇 [Genomic_Data_Breed_Classification](https://github.com/Minsu5452/Genomic_Data_Breed_Classification) — 원본 수상작
-- [AI Frenz 학회](http://aifrenz.org)
-
----
-
-> 🔗 Portfolio: [Minsu5452](https://github.com/Minsu5452)
+- [Winning competition repository](https://github.com/Minsu5452/Genomic_Data_Breed_Classification)
+- [AI Frenz](http://aifrenz.org)
